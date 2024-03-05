@@ -30,7 +30,13 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82);
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+        width: 91%;
+    }
 }
+
+
 
 @media screen and (min-width: 992px) {
 
