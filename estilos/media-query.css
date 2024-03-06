@@ -32,13 +32,19 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     div.campo > input {
+        height: 100%;
         width: 90%;
+        padding: 4px;
     }
 }
 
 
 
 @media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
 
     section#login {        
         width: 950px;
@@ -67,5 +73,6 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82);
 
     div.campo > input {
         width: 90%;
+        padding: 4px;
     }
 }
